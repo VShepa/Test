@@ -1,0 +1,30 @@
+.section-outer {
+	
+	padding: 0 20px;
+	background: grey;
+}
+
+.section-inner {
+    max-width: 960px;
+    margin:0 auto;
+}
+
+.section-header .section-inner {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-header .section-header__button {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	padding: 16px 20px;
+	border: 1px solid #eee;
+	border-radius: 4px;
+}
+
+.section-header .section-header__button:not(:first-child) {
+	margin-left:20px;
+}
